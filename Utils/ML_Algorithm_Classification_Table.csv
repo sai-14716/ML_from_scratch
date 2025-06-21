@@ -1,0 +1,36 @@
+Algorithm,Type of Learning,Discriminative / Generative,Type of Model,Type of Task / Classification
+Linear Regression,Supervised,Discriminative,Linear / Algebraic,Regression
+Logistic Regression,Supervised,Discriminative,Linear / Probabilistic,Classification (Binary)
+Naive Bayes,Supervised,Generative,Probabilistic,Classification (Multiclass)
+Gaussian Naive Bayes,Supervised,Generative,Probabilistic,Classification
+LDA (Linear Discriminant Analysis),Supervised,Generative,Probabilistic / Linear Algebra,Classification
+SVM,Supervised,Discriminative,Geometric / Optimization,Classification / Regression
+SVR,Supervised,Discriminative,Geometric / Optimization,Regression
+Decision Tree,Supervised,Discriminative,Rule-based,Classification / Regression
+Random Forest,Supervised,Discriminative,Ensemble / Tree-based,Classification / Regression
+XGBoost / LightGBM,Supervised,Discriminative,Ensemble / Boosted Trees,Classification / Regression
+k-NN,Supervised,Discriminative,Geometric,Classification / Regression
+MLP (Neural Net),Supervised,Discriminative,Neural,Classification / Regression
+CNN,Supervised,Discriminative,Neural,Classification (Image)
+RNN / LSTM,Supervised,Discriminative,Neural,Sequential Classification
+HMM,Supervised / Unsupervised,Generative,Probabilistic / Graphical,Sequence Modeling
+Mixture of Experts,Supervised,Generative,Probabilistic / Ensemble,Classification
+GMM,Unsupervised,Generative,Probabilistic,Clustering
+k-Means,Unsupervised,-,Geometric,Clustering
+DBSCAN,Unsupervised,-,Density-based / Geometric,Clustering
+Hierarchical Clustering,Unsupervised,-,Tree / Distance-based,Clustering
+Spectral Clustering,Unsupervised,-,Graph-based,Clustering
+PCA,Unsupervised,-,Linear Algebra,Dimensionality Reduction
+Autoencoder,Unsupervised,Generative,Neural,Dim. Reduction / Feature Learning
+VAE,Unsupervised,Generative,Neural / Probabilistic,Generative Modeling
+GAN,Unsupervised,Generative,Neural,Image/Text Generation
+Diffusion Models,Unsupervised,Generative,Neural,High-quality Generation
+t-SNE / UMAP,Unsupervised,-,Manifold / Geometric,Visualization / Dim. Reduction
+BERT,Self-Supervised,Discriminative,Transformer / Neural,Pre-training / Representation
+GPT,Self-Supervised,Generative,Transformer / Neural,Language Modeling / Generation
+SimCLR / MoCo,Self-Supervised,Discriminative,Neural,Feature Learning (Contrastive)
+Graph Neural Network (GNN),Semi/Self-Supervised,Discriminative,Graph / Neural,Node Classification / SSL
+Label Propagation,Semi-Supervised,Discriminative,Graph / Optimization,Node Labeling
+Q-Learning / DQN,Reinforcement,-,Tabular / Neural,Value-based RL
+PPO / A3C,Reinforcement,-,Neural,Policy-based RL
+MuZero / World Models,Reinforcement,Generative,Model-based RL / Neural,Planning + Policy Learning
